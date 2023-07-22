@@ -15,11 +15,15 @@ function App() {
       element: <TablePage />,
     },
     {
-      path: "/graph",
+      path: "/graph/:id",
       element: <GraphPage />,
     },
   ]);
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
 export default App;

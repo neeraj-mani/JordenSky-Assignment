@@ -1,0 +1,41 @@
+.graph-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.graph-container .navlink-container {
+  padding: 10px;
+  background-color: var(--color-white);
+  max-width: fit-content;
+  display: flex;
+  gap: 10px;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  box-shadow: inset 2px 2px 4px rgb(0 0 0/10%);
+}
+.navlink-container a {
+  color: var(--color-text-dark);
+}
+
+.navlink-container a.active {
+  background-color: var(--color-bg-1);
+  color: var(--color-primary);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgb(0 0 0/10%);
+}
+.graph-container .header {
+  padding: 1rem;
+}
+.graph-container .header a.back-btn {
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  color: var(--color-text-dark);
+  border: 2px solid var(--color-text-dark);
+  padding: 4px;
+  border-radius: 100px;
+}
+.graph-container .header svg {
+  height: 100%;
+  width: 100%;
+}
