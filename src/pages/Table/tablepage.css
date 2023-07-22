@@ -1,0 +1,19 @@
+.table-container {
+  max-width: 800px;
+  margin: auto;
+}
+.column-name {
+  display: flex;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ddd;
+}
+.column-name span {
+  text-align: center;
+  width: 100%;
+}

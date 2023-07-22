@@ -1,0 +1,29 @@
+.table-row {
+  display: flex;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+
+.table-row span {
+  text-align: center;
+  width: 100%;
+}
+
+.table-row .acc_name {
+  text-align: left;
+  color: var(--color-primary);
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.acc_name svg {
+  height: 1rem;
+  width: 1rem;
+}
